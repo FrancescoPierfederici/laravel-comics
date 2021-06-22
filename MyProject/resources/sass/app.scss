@@ -1,0 +1,19 @@
+//
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+
+ 
+
+$primary-color: #0282f9;
+$secondary-color:#464646;
+$tertiary-color: #1c1c1c;
+@import "partials/header";
+@import "partials/footer";
+@import "partials/card";
+@import "partials/buttons";
+@import "partials/Link";

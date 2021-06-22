@@ -1,0 +1,71 @@
+.container2{
+    display: flex;
+    max-width: 1200px;
+    width:100%;
+    margin: auto;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    .button{
+        z-index: 1;
+        position: absolute;
+        top: -30px;
+        background-color: $primary-color;
+        border: none;
+        padding:20px;
+        color: white;
+    }
+}
+
+
+
+
+.card{
+    
+   
+    padding-top: 50px;
+    width: calc(100% / 6 ) ;
+    text-transform: uppercase;
+    font-size: smaller;
+    color: white;
+   
+    
+
+    h4{
+        font-weight: 200;
+        text-align: left;
+    }
+  
+}
+
+
+
+   
+.bgimage2{
+        background-color: $primary-color;
+        height: 100px;
+        display: flex;
+        .container3{
+            display: flex;
+            max-width: 1200px;
+            width:100%;
+            margin: auto;
+            color: white;
+            justify-content: space-around;
+        }
+        ul{
+            display: flex;
+            align-content: middle;
+            line-height: 60px;
+
+        }
+        li{
+            padding: 15px 15px;
+            list-style: none;
+            justify-content: space-between;
+            display: -webkit-flex;
+            display: flex;
+            
+
+        }
+    
+}

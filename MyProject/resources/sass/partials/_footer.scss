@@ -1,0 +1,58 @@
+.containerfoot{
+    display: flex;
+    max-width: 1200px;
+    width:100%;
+    margin: auto;
+
+    color: white;
+    
+    ul{
+        padding-right: 40px;
+        .fntbig{
+            font-size: 25px;
+        }
+        li{
+            list-style: none;
+            font-size: 10px;
+            padding:10px;
+        }
+    }
+}
+.bgimagefooter{
+    background-image: url('/images/footer-bg.jpg');
+    background-repeat: no-repeat; 
+    background-size: cover;
+    height: 500px;
+    width: 100% ;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.secondfooter{
+    height: 100px;
+    background-color: $tertiary-color;
+   
+    button{
+        background-color: $tertiary-color;
+        border: 1px solid $primary-color;
+        padding:10px;
+        color: white;
+        align-content: middle;
+        display: flex;
+
+    }
+    ul{
+        
+        display: flex;
+        color: blanchedalmond;
+        li{
+            display: flex;
+        }
+    }
+}
+.container4{
+    display: flex;
+    max-width: 1200px;
+    width:100%;
+    margin: auto;
+ 
+}
